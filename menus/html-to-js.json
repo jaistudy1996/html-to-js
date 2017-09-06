@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle html-to-js",
+        "command": "html-to-js:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "html-to-js",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "html-to-js:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
